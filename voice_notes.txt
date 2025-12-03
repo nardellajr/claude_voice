@@ -1,0 +1,2 @@
+Hello, this is a test to see what's going to happen with the voice dictation.
+Hello, this is another test to see if the microphone is working correctly.

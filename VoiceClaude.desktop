@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Voice Claude
+Comment=Launch Claude CLI with voice dictation
+Exec=/home/mike/mic_text/launch_voice_claude.sh
+Icon=audio-input-microphone
+Terminal=false
+Categories=Utility;Development;
