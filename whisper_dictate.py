@@ -23,7 +23,9 @@ def load_model():
     global model
     print("Loading Whisper model...", flush=True)
     model = whisper.load_model("small")
-    print("Model loaded. Hold Right Ctrl to speak, release to transcribe.", flush=True)
+    device = next(model.parameters()).device
+    print(f"Model loaded on {device.type.upper()}.", flush=True)
+    print("Hold Right Ctrl to speak, release to transcribe.", flush=True)
     print("Press Ctrl+C to exit.\n", flush=True)
 
 def start_recording():
